@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+  index.html — Página de cursos PosTech / Sem Bug
+  - Conteúdo estático (marca, textos fixos) + áreas preenchidas por script.js
+  - script.js carrega cursos.json e preenche: hero (#hero-img), tópicos (#topicos-container se existir), catálogo (#cards-container)
+  - Carrinho: ícone #cart-icon abre <aside id="cart-sidebar">; itens gerados em runtime
+-->
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PosTech - Cursos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Barra superior: logo + CTA + ícone do carrinho -->
+    <header>
+        <nav class="navbar">
+            <div class="logo-section">
+                <div class="logo"><img src="img/logo_branca (1).png" alt="Logo"></div>
+                <h2>SEM BUG</h2>
+            </div>
+
+            <div class="interacao">
+                <h2><strong>Turmas de abril.</strong> Aproveite o benefício <br> especial de <strong>10% off</strong>
+                    para <strong>inscrições até 27 de março.</strong></h2>
+                <button class="btn-inscrever">Assine já</button>
+                <img id="cart-icon" src="icons/icons8-shopping-cart-42.png" alt="carrinho">
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Painel lateral do carrinho (abre com .active no JS) -->
+    <aside id="cart-sidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h2>Meu Carrinho</h2>
+            <button id="close-cart" class="close-btn">&times;</button>
+        </div>
+        <div id="cart-items" class="cart-items"></div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <strong>Total:</strong>
+                <span id="cart-total">R$ 0,00</span>
+            </div>
+            <button class="btn-finalizar" id="btn-finalizar">Finalizar Compra</button>
+            <button class="btn-fechar-carrinho" id="btn-fechar-carrinho">Fechar</button>
+        </div>
+    </aside>
+
+    <main>
+
+        <!-- Banner principal: src definido por script.js a partir de cursoPrincipal.imagem -->
+        <section class="curso-hero">
+            <img id="hero-img" alt="Curso principal">
+        </section>
+
+        <!-- Institucional: imagem + texto sobre a plataforma -->
+        <section class="sem-bug">
+            <div class="sem-bug-inner">
+                <figure class="sem-bug-media">
+                    <img src="img/sem_bug.png" alt="SEM BUG">
+                </figure>
+                <div class="sem-bug-texto">
+                    <h2>O maior ecossistema de cursos de tecnologia do Brasil apresenta a plataforma Sem Bug</h2>
+                    <p>Nossos cursos são pensados e estruturados por professores, profissionais da área e especialistas em tecnologia, unindo teoria e prática para ajudar você a evoluir de verdade no mundo tech.</p>
+                    <p>A Sem Bug nasce com a missão de conectar pessoas ao futuro da tecnologia, oferecendo formações de qualidade, conteúdos atualizados e uma experiência de aprendizado feita para quem quer crescer na área digital.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Texto introdutório; tópicos opcionais em #topicos-container (preenchidos pelo JSON via script.js) -->
+        <section class="descricao-curso">
+            <h2>O que você vai aprender</h2>
+            <p>Cursos especificamente
+
+                desenvolvidos para impulsionar
+                
+                e acelerar sua carreira, integrando
+                
+                todas as possiblidades da tecnologia</p>
+        </section>
+
+        <!-- Catálogo: categorias e cards gerados por script.js (classe .catalog + #cards-container) -->
+        <section class="catalog" id="cards-container"></section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__rule" aria-hidden="true"></div>
+        <p>© 2026 Sem bug. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

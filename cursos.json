@@ -1,0 +1,201 @@
+{
+    "_doc": "Fonte de dados da página. Estrutura e campos explicados no cabeçalho de script.js. Chaves ignoradas pelo app podem começar com _.",
+    "cursoPrincipal": {
+        "imagem": "img/banner_1.png"
+    },
+    "topicos": [
+        {
+            "titulo": "Infraestrutura moderna",
+            "descricao": "Arquitetura de data centers e redes."
+        },
+        {
+            "titulo": "Prática orientada a projetos",
+            "descricao": "Exercícios e cases reais para fixar o aprendizado."
+        }
+    ],
+    "categorias": [
+        {
+            "nome": "DEV",
+            "cursos": [
+                {
+                    "titulo": "Arquitetura de Sistemas .Net",
+                    "horas": 360,
+                    "nivel": "Intermediário",
+                    "preco": 3299.9,
+                    "detalhes": "Padrões de arquitetura, camadas, integração e boas práticas em ecossistema Microsoft.",
+                    "imagem": "img/Full-stack.png"
+                },
+                {
+                    "titulo": "Desenvolvedor Java Enterprise",
+                    "horas": 400,
+                    "nivel": "Avançado",
+                    "preco": 3499.9,
+                    "detalhes": "Spring, APIs REST, mensageria e deploy em ambientes corporativos.",
+                    "imagem": "img/Full-stack.png"
+                },
+                {
+                    "titulo": "Desenvolvedor FullStack",
+                    "horas": 660,
+                    "nivel": "Avançado",
+                    "preco": 4999.9,
+                    "detalhes": "Front-end, back-end, banco de dados, APIs e deploy em nuvem.",
+                    "imagem": "img/Full-stack.png"
+                },
+                {
+                    "titulo": "Arquitetura de Software",
+                    "horas": 320,
+                    "nivel": "Intermediário",
+                    "preco": 3199.9,
+                    "detalhes": "Design de sistemas escaláveis, DDD e documentação técnica.",
+                    "imagem": ""
+                },
+                {
+                    "titulo": "DevOps na Prática",
+                    "horas": 280,
+                    "nivel": "Intermediário",
+                    "preco": 2899.9,
+                    "detalhes": "CI/CD, containers, observabilidade e automação de infraestrutura.",
+                    "imagem": ""
+                },
+                {
+                    "titulo": "Engenharia de Software",
+                    "horas": 400,
+                    "nivel": "Avançado",
+                    "preco": 3599.9,
+                    "detalhes": "Ciclo de vida, qualidade, métricas e entrega contínua.",
+                    "imagem": ""
+                },
+                {
+                    "titulo": "APIs e Microsserviços",
+                    "horas": 220,
+                    "nivel": "Intermediário",
+                    "preco": 2599.9,
+                    "detalhes": "Contratos, versionamento, gateway e resiliência entre serviços.",
+                    "imagem": ""
+                },
+                {
+                    "titulo": "Qualidade e Testes de Software",
+                    "horas": 180,
+                    "nivel": "Iniciante",
+                    "preco": 1999.9,
+                    "detalhes": "Pirâmide de testes, automação e cultura de qualidade.",
+                    "imagem": ""
+                },
+                {
+                    "titulo": "Cybersecurity",
+                    "horas": 300,
+                    "nivel": "Intermediário",
+                    "preco": 3399.9,
+                    "detalhes": "Análise de vulnerabilidades, pentest, criptografia e segurança em cloud.",
+                    "imagem": "img/Cybersecurity.png"
+                }
+            ]
+        },
+        {
+            "nome": "TECH & BUSINESS",
+            "cursos": [
+                {
+                    "titulo": "Product Management",
+                    "horas": 200,
+                    "nivel": "Intermediário",
+                    "preco": 2499.9,
+                    "detalhes": "Discovery, roadmap, métricas de produto e trabalho com squads.",
+                    "imagem": ""
+                },
+                {
+                    "titulo": "Growth Marketing",
+                    "horas": 150,
+                    "nivel": "Iniciante",
+                    "preco": 1899.9,
+                    "detalhes": "Funil, experimentação, CRM e growth loops.",
+                    "imagem": ""
+                },
+                {
+                    "titulo": "IA para Negócios",
+                    "horas": 120,
+                    "nivel": "Iniciante",
+                    "preco": 2199.9,
+                    "detalhes": "Casos de uso, governança e implementação prática de IA nas empresas.",
+                    "imagem": "img/Ia_e_Negocio.png"
+                },
+                {
+                    "titulo": "Liderança em Tecnologia",
+                    "horas": 100,
+                    "nivel": "Avançado",
+                    "preco": 2799.9,
+                    "detalhes": "Gestão de times tech, cultura e alinhamento com negócio.",
+                    "imagem": ""
+                }
+            ]
+        },
+        {
+            "nome": "FRONT-END",
+            "cursos": [
+                {
+                    "titulo": "Interfaces Digitais",
+                    "horas": 200,
+                    "nivel": "Intermediário",
+                    "preco": 2299.9,
+                    "detalhes": "UI, componentes, design responsivo e handoff com design.",
+                    "imagem": "img/InterfaceD.png"
+                },
+                {
+                    "titulo": "Front-End Avançado",
+                    "horas": 300,
+                    "nivel": "Avançado",
+                    "preco": 3099.9,
+                    "detalhes": "Arquitetura front, performance e tooling moderno.",
+                    "imagem": "img/InterfaceD.png"
+                },
+                {
+                    "titulo": "React Profissional",
+                    "horas": 240,
+                    "nivel": "Intermediário",
+                    "preco": 2699.9,
+                    "detalhes": "Hooks, estado global, testes e padrões em aplicações React.",
+                    "imagem": ""
+                },
+                {
+                    "titulo": "Conceitos Profundos em JavaScript",
+                    "horas": 280,
+                    "nivel": "Avançado",
+                    "preco": 2499.9,
+                    "detalhes": "Event loop, closures, módulos e ES6+ aplicados.",
+                    "imagem": ""
+                },
+                {
+                    "titulo": "Desenvolvimento Web Moderno",
+                    "horas": 360,
+                    "nivel": "Intermediário",
+                    "preco": 2899.9,
+                    "detalhes": "HTML semântico, CSS avançado e integração com APIs.",
+                    "imagem": "img/Desenvolvimento_Avan.png"
+                },
+                {
+                    "titulo": "Design Systems",
+                    "horas": 160,
+                    "nivel": "Intermediário",
+                    "preco": 2199.9,
+                    "detalhes": "Tokens, biblioteca de componentes e documentação viva.",
+                    "imagem": ""
+                },
+                {
+                    "titulo": "Performance Web",
+                    "horas": 140,
+                    "nivel": "Avançado",
+                    "preco": 2399.9,
+                    "detalhes": "Core Web Vitals, lazy loading e otimização de assets.",
+                    "imagem": "img/Pessoa_desenvolvendo.png"
+                },
+                {
+                    "titulo": "Acessibilidade na Web",
+                    "horas": 100,
+                    "nivel": "Iniciante",
+                    "preco": 1799.9,
+                    "detalhes": "WCAG, leitores de tela e testes de acessibilidade.",
+                    "imagem": ""
+                }
+            ]
+        }
+    ]
+}
