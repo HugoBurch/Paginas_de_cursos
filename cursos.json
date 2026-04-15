@@ -23,7 +23,7 @@
                     "nivel": "Intermediário",
                     "preco": 3299.9,
                     "detalhes": "Padrões de arquitetura, camadas, integração e boas práticas em ecossistema Microsoft.",
-                    "imagem": "img/arquiteturaSoftaware.jpeg"
+                    "imagem": "img/arquiteturaSoftaware.png"
                 },
                 {
                     "titulo": "Desenvolvedor Java Enterprise",
@@ -31,7 +31,7 @@
                     "nivel": "Avançado",
                     "preco": 3499.9,
                     "detalhes": "Spring, APIs REST, mensageria e deploy em ambientes corporativos.",
-                    "imagem": "img/api.jpeg"
+                    "imagem": "img/api.png"
                 },
                 {
                     "titulo": "Desenvolvedor FullStack",
@@ -47,7 +47,7 @@
                     "nivel": "Intermediário",
                     "preco": 3199.9,
                     "detalhes": "Design de sistemas escaláveis, DDD e documentação técnica.",
-                    "imagem": "img/arquiteturaSoftaware.jpeg"
+                    "imagem": "img/arquiteturaSoftaware.png"
                 },
                 {
                     "titulo": "DevOps na Prática",
@@ -55,7 +55,7 @@
                     "nivel": "Intermediário",
                     "preco": 2899.9,
                     "detalhes": "CI/CD, containers, observabilidade e automação de infraestrutura.",
-                    "imagem": "img/devOps.jpeg"
+                    "imagem": "img/devOps.png"
                 },
                 {
                     "titulo": "Engenharia de Software",
@@ -63,7 +63,7 @@
                     "nivel": "Avançado",
                     "preco": 3599.9,
                     "detalhes": "Ciclo de vida, qualidade, métricas e entrega contínua.",
-                    "imagem": "img/engenhariaSoftaware.jpeg"
+                    "imagem": "img/engenhariaSoftaware.png"
                 },
                 {
                     "titulo": "APIs e Microsserviços",
@@ -71,7 +71,7 @@
                     "nivel": "Intermediário",
                     "preco": 2599.9,
                     "detalhes": "Contratos, versionamento, gateway e resiliência entre serviços.",
-                    "imagem": "img/api.jpeg"
+                    "imagem": "img/api.png"
                 },
                 {
                     "titulo": "Qualidade e Testes de Software",
@@ -79,7 +79,7 @@
                     "nivel": "Iniciante",
                     "preco": 1999.9,
                     "detalhes": "Pirâmide de testes, automação e cultura de qualidade.",
-                    "imagem": "img/qualidadeTeste.jpeg"
+                    "imagem": "img/qualidadeTeste.png"
                 },
                 {
                     "titulo": "Cybersecurity",
@@ -100,7 +100,7 @@
                     "nivel": "Intermediário",
                     "preco": 2499.9,
                     "detalhes": "Discovery, roadmap, métricas de produto e trabalho com squads.",
-                    "imagem": "img/productManagament.jpeg"
+                    "imagem": "img/productManagament.png"
                 },
                 {
                     "titulo": "Growth Marketing",
@@ -108,7 +108,7 @@
                     "nivel": "Iniciante",
                     "preco": 1899.9,
                     "detalhes": "Funil, experimentação, CRM e growth loops.",
-                    "imagem": "img/growtMarkenting.jpeg"
+                    "imagem": "img/growtMarkenting.png"
                 },
                 {
                     "titulo": "IA para Negócios",
@@ -124,7 +124,7 @@
                     "nivel": "Avançado",
                     "preco": 2799.9,
                     "detalhes": "Gestão de times tech, cultura e alinhamento com negócio.",
-                    "imagem": "img/lideranca.jpeg"
+                    "imagem": "img/lideranca.png"
                 }
             ]
         },
@@ -145,7 +145,7 @@
                     "nivel": "Avançado",
                     "preco": 3099.9,
                     "detalhes": "Arquitetura front, performance e tooling moderno.",
-                    "imagem": "img/react.jpg"
+                    "imagem": "img/react.png"
                 },
                 {
                     "titulo": "React Profissional",
@@ -153,7 +153,7 @@
                     "nivel": "Intermediário",
                     "preco": 2699.9,
                     "detalhes": "Hooks, estado global, testes e padrões em aplicações React.",
-                    "imagem": "img/react.jpg"
+                    "imagem": "img/react.png"
                 },
                 {
                     "titulo": "Conceitos Profundos em JavaScript",
@@ -161,7 +161,7 @@
                     "nivel": "Avançado",
                     "preco": 2499.9,
                     "detalhes": "Event loop, closures, módulos e ES6+ aplicados.",
-                    "imagem": "img/conceitoJs.webp"
+                    "imagem": "img/conceitoJs.png"
                 },
                 {
                     "titulo": "Desenvolvimento Web Moderno",
@@ -177,7 +177,7 @@
                     "nivel": "Intermediário",
                     "preco": 2199.9,
                     "detalhes": "Tokens, biblioteca de componentes e documentação viva.",
-                    "imagem": "img/productManagament.jpeg"
+                    "imagem": "img/productManagament.png"
                 },
                 {
                     "titulo": "Performance Web",
@@ -193,7 +193,7 @@
                     "nivel": "Iniciante",
                     "preco": 1799.9,
                     "detalhes": "WCAG, leitores de tela e testes de acessibilidade.",
-                    "imagem": "img/acessibilidadeWeb.jpeg"
+                    "imagem": "img/acessibilidadeWeb.png"
                 }
             ]
         }
