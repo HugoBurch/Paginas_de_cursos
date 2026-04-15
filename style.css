@@ -130,8 +130,8 @@ body {
 
 /* Coluna da imagem */
 .sem-bug-media {
-    flex: 1.2;
-    max-width: 620px;
+    flex: 1.4;
+    max-width: 740px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,18 +141,15 @@ body {
 .sem-bug-media img {
     width: 100%;
     max-width: 100%;
-    height: auto;
+    height: 440px;
+    object-fit: cover;
     display: block;
     margin: 0 auto;
 }
 
 /* Coluna do texto */
 .sem-bug-texto {
-    flex: 0.9;
-    padding-right: 32px;
-}
-.sem-bug-texto {
-    flex: 1;
+    flex: 0.85;
     padding-right: 32px;
 }
 
@@ -603,8 +600,9 @@ body {
 
     .sem-bug-media img {
         width: 100%;
-        max-width: 90vw;
-        height: auto;
+        max-width: 100%;
+        height: min(45vh, 340px);
+        object-fit: cover;
         display: block;
         margin: 0 auto;
     }
